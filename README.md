@@ -50,11 +50,11 @@ To keep the application simple and performant:
 - [x] **TCGDex Integration**
     - [x] Create a service wrapper around `tcgdex-sdk`.
     - [x] Implement caching: Check DB `CardMetadata` first, then fetch from API if missing.
-- [ ] **Database Models**
+- [x] **Database Models**
     - [x] `CardMetadata`: Stores static info (ID, Name, Image URL, Set) from TCGDex.
-    - [ ] `InventoryItem`: Represents a physical card (UUID, Condition, Location, Foreign Key to `CardMetadata`).
-    - [ ] `Deck`: Represents a collection (UUID, Name).
-    - [ ] `DeckCard`: Association table (Deck UUID, InventoryItem UUID).
+    - [x] `InventoryItem`: Represents a physical card (UUID, Condition, Location, Foreign Key to `CardMetadata`).
+    - [x] `Deck`: Represents a collection (UUID, Name).
+    - [x] `DeckCard`: Association table (Deck UUID, InventoryItem UUID).
 - [ ] **API Endpoints**
     - [ ] `GET /cards/search`: Search cards via TCGDex (cache results).
     - [ ] `POST /inventory`: Add a card to inventory.
