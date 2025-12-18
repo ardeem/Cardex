@@ -47,11 +47,11 @@ To keep the application simple and performant:
 - [x] **Project Setup**
     - [x] Initialize FastAPI project structure.
     - [x] Configure SQLite database connection (local file).
-- [ ] **TCGDex Integration**
-    - [ ] Create a service wrapper around `tcgdex-sdk`.
-    - [ ] Implement caching: Check DB `CardMetadata` first, then fetch from API if missing.
+- [x] **TCGDex Integration**
+    - [x] Create a service wrapper around `tcgdex-sdk`.
+    - [x] Implement caching: Check DB `CardMetadata` first, then fetch from API if missing.
 - [ ] **Database Models**
-    - [ ] `CardMetadata`: Stores static info (ID, Name, Image URL, Set) from TCGDex.
+    - [x] `CardMetadata`: Stores static info (ID, Name, Image URL, Set) from TCGDex.
     - [ ] `InventoryItem`: Represents a physical card (UUID, Condition, Location, Foreign Key to `CardMetadata`).
     - [ ] `Deck`: Represents a collection (UUID, Name).
     - [ ] `DeckCard`: Association table (Deck UUID, InventoryItem UUID).
