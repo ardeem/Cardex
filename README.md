@@ -44,9 +44,9 @@ To keep the application simple and performant:
 ### Phase 1: Backend Core & TCGDex Integration
 **Goal:** Establish the API, database connection, and verify with Swagger UI.
 
-- [ ] **Project Setup**
-    - [ ] Initialize FastAPI project structure.
-    - [ ] Configure SQLite database connection (local file).
+- [x] **Project Setup**
+    - [x] Initialize FastAPI project structure.
+    - [x] Configure SQLite database connection (local file).
 - [ ] **TCGDex Integration**
     - [ ] Create a service wrapper around `tcgdex-sdk`.
     - [ ] Implement caching: Check DB `CardMetadata` first, then fetch from API if missing.
